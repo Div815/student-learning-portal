@@ -21,8 +21,8 @@ type Resource = {
 
 const courseResources: Record<string, Resource[]> = {
   python: [
-    { title: "Python.org Official Tutorial", url: "https://docs.python.org/3/tutorial/", description: "The official Python tutorial from python.org" },
-    { title: "Real Python", url: "https://realpython.com/", description: "Comprehensive Python tutorials and articles" },
+    { title: "freeCodeCamp: Python Tutorial for Beginners", url: "https://www.youtube.com/watch?v=qwAFL1597eM", description: "Known for its lengthy, in-depth tutorials, freeCodeCamp offers a comprehensive Python course that covers everything from the basics to more advanced topics." },
+    { title: "Codecademy: Learn Python 3 Course", url: "https://www.codecademy.com/learn/learn-python-3", description: "Codecademy's interactive platform allows you to learn Python by writing code directly in your browser." },
     { title: "Python for Everybody (Coursera)", url: "https://www.coursera.org/specializations/python", description: "Free course by Dr. Charles Severance" },
   ],
   c: [
@@ -31,24 +31,29 @@ const courseResources: Record<string, Resource[]> = {
     { title: "CS50 - Harvard", url: "https://cs50.harvard.edu/x/", description: "Harvard's introduction to computer science" },
   ],
   java: [
-    { title: "Oracle Java Tutorials", url: "https://docs.oracle.com/javase/tutorial/", description: "Official Java documentation and tutorials" },
+    { title: "Bro Code", url: "https://www.youtube.com/watch?v=xk4_1vDrzzo", description: "Known for an engaging and direct style, he offers a very popular, comprehensive Java tutorial that's perfect for absolute beginners" },
     { title: "Java Programming - MOOC.fi", url: "https://java-programming.mooc.fi/", description: "Free Java course from University of Helsinki" },
     { title: "Java - W3Schools", url: "https://www.w3schools.com/java/", description: "Interactive Java tutorial with examples" },
   ],
   html: [
-    { title: "MDN Web Docs - HTML", url: "https://developer.mozilla.org/en-US/docs/Web/HTML", description: "Comprehensive HTML documentation" },
+    { title: "The Odin Project", url: "https://www.theodinproject.com/paths/foundations/courses/foundations", description: "This is a complete, free, open-source curriculum for web development." },
     { title: "W3Schools HTML Tutorial", url: "https://www.w3schools.com/html/", description: "Beginner-friendly HTML tutorial" },
-    { title: "FreeCodeCamp", url: "https://www.freecodecamp.org/", description: "Free interactive HTML & web dev course" },
+    { title: "FreeCodeCamp", url: "https://www.freecodecamp.org/learn/2022/responsive-web-design/", description: "Free interactive HTML & web dev course" },
   ],
   css: [
-    { title: "MDN Web Docs - CSS", url: "https://developer.mozilla.org/en-US/docs/Web/CSS", description: "Complete CSS reference and tutorials" },
-    { title: "CSS-Tricks", url: "https://css-tricks.com/", description: "Tips, tricks, and techniques on CSS" },
+    { title: "The Net Ninja", url: "https://www.google.com/search?q=https://www.youtube.com/playlist%3Flist%3DPL4cUxeGkcC9gQeDH6xYhmO-dbjAhoLVY", description: "This channel offers a fantastic playlist for modern CSS. The tutorials are broken down into short, easy-to-digest videos that are great for learning step-by-step. " },
+    { title: "CSS Diner", url: "https://flukeout.github.io/", description: "A fun and simple game that teaches you all about CSS selectors. You have to write the correct selector to pick items on a dinner table. It's a fantastic way to practice a tricky but essential topic." },
     { title: "Flexbox Froggy", url: "https://flexboxfroggy.com/", description: "Learn CSS Flexbox through a game" },
   ],
   javascript: [
-    { title: "MDN JavaScript Guide", url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide", description: "Comprehensive JavaScript documentation" },
-    { title: "JavaScript.info", url: "https://javascript.info/", description: "Modern JavaScript tutorial" },
+    { title: "freeCodeCamp", url: "https://www.youtube.com/watch?v=jS4aFq5-91M", description: "They offer a massive, single-video course that covers everything a beginner needs to know about JavaScript, from variables and data types to functions and the DOM." },
+    { title: "The Odin Project", url: "https://www.theodinproject.com/paths/foundations/courses/foundations", description: "Widely regarded as one of the best free resources, The Odin Project provides a full-stack curriculum that teaches JavaScript in-depth. It forces you to build numerous projects to solidify your learning." },
     { title: "Eloquent JavaScript", url: "https://eloquentjavascript.net/", description: "Free online book about JavaScript" },
+  ],
+    react: [
+    { title: "React Official Docs", url: "https://react.dev/", description: "Official React documentation and tutorial" },
+    { title: "React Tutorial - Scrimba", url: "https://scrimba.com/learn/learnreact", description: "Interactive React course" },
+    { title: "Full Stack Open", url: "https://fullstackopen.com/", description: "Deep dive into modern web development" },
   ],
   dsa: [
     { title: "GeeksforGeeks DSA", url: "https://www.geeksforgeeks.org/data-structures/", description: "Complete DSA tutorial and practice" },
@@ -60,11 +65,7 @@ const courseResources: Record<string, Resource[]> = {
     { title: "C++ Reference", url: "https://en.cppreference.com/", description: "Complete C++ language reference" },
     { title: "C++ - GeeksforGeeks", url: "https://www.geeksforgeeks.org/c-plus-plus/", description: "C++ tutorials and practice problems" },
   ],
-  react: [
-    { title: "React Official Docs", url: "https://react.dev/", description: "Official React documentation and tutorial" },
-    { title: "React Tutorial - Scrimba", url: "https://scrimba.com/learn/learnreact", description: "Interactive React course" },
-    { title: "Full Stack Open", url: "https://fullstackopen.com/", description: "Deep dive into modern web development" },
-  ],
+
 };
 
 export default function CoursePage() {
